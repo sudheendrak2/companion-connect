@@ -1,0 +1,21 @@
+# Secrets - never commit
+.env
+.env.*
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node / Angular
+node_modules/
+frontend/dist/
+frontend/.angular/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
